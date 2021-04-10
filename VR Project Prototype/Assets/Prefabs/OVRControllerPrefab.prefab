@@ -2477,7 +2477,6 @@ GameObject:
   - component: {fileID: 4464436526328426}
   - component: {fileID: 33356632527651328}
   - component: {fileID: 23705978566827108}
-  - component: {fileID: 8114920917593380569}
   m_Layer: 0
   m_Name: OculusGoControllerModel
   m_TagString: Untagged
@@ -2496,7 +2495,7 @@ Transform:
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8318475121082928737}
+  - {fileID: 259363043755778748}
   m_Father: {fileID: 488160}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2545,26 +2544,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8114920917593380569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1956530202777762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bf7a55ba590d4b11ba699e24e62a14e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Distance: 10
-  m_LineRenderer: {fileID: 5654457619549882005}
-  m_EverythingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractableMask:
-    serializedVersion: 2
-    m_Bits: 512
 --- !u!1 &1971879593916346
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2626,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &6820478716561904944
+--- !u!1 &4756612102939485903
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2655,8 +2634,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8318475121082928737}
-  - component: {fileID: 5654457619549882005}
+  - component: {fileID: 259363043755778748}
+  - component: {fileID: 4554978197082734590}
   m_Layer: 0
   m_Name: Line
   m_TagString: Untagged
@@ -2664,27 +2643,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8318475121082928737
+--- !u!4 &259363043755778748
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6820478716561904944}
+  m_GameObject: {fileID: 4756612102939485903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 2}
+  m_LocalPosition: {x: -0, y: -0.011, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4464436526328426}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!120 &5654457619549882005
+--- !u!120 &4554978197082734590
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6820478716561904944}
+  m_GameObject: {fileID: 4756612102939485903}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2726,7 +2705,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.03286171
+        value: 0.06250657
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2739,14 +2718,14 @@ LineRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 0, b: 0, a: 0.5019608}
+      key1: {r: 1, g: 0, b: 0, a: 0}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 50693
+      ctime0: 0
       ctime1: 65535
       ctime2: 0
       ctime3: 0
@@ -2755,8 +2734,8 @@ LineRenderer:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 47609
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
@@ -2764,7 +2743,7 @@ LineRenderer:
       atime7: 0
       m_Mode: 0
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 3
+      m_NumAlphaKeys: 2
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0

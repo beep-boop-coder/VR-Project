@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{08B417E2-DF8D-8EDE-E7EC-2A90915BDFAA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ComputerInput.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ComputerInput.cs" Line="27" Column="40" />
+      <File FileName="Assets/Scripts/VRPlayerInput.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8f051f93-f6c9-40d7-8fc8-62bb6092c8bd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
