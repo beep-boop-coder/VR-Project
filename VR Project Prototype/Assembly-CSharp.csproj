@@ -64,29 +64,68 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\Extensions\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\Scripts\ComputerInput.cs" />
-    <Compile Include="Assets\Scripts\VRPlayerInput.cs" />
+    <Compile Include="Assets\Scripts\EndSceneScript.cs" />
+    <Compile Include="Assets\Scripts\MainSceneScript.cs" />
+    <Compile Include="Assets\Scripts\SceneManageScript.cs" />
+    <None Include="Assets\Extensions\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Extensions\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Extensions\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Extensions\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Extensions\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Extensions\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Extensions\SkySerie Freebie\Hdri setup.txt" />
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.33f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -287,7 +326,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.33f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project-main/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.33f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{08B417E2-DF8D-8EDE-E7EC-2A90915BDFAA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ComputerInput.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EndSceneScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/ComputerInput.cs" Line="27" Column="40" />
-      <File FileName="Assets/Scripts/VRPlayerInput.cs" />
+      <File FileName="Assets/Scripts/ComputerInput.cs" Line="21" Column="42" />
+      <File FileName="Assets/Scripts/EndSceneScript.cs" Line="15" Column="36" />
+      <File FileName="Assets/Scripts/MainSceneScript.cs" Line="15" Column="36" />
+      <File FileName="Assets/Scripts/ScenesManager.cs" Line="17" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8f051f93-f6c9-40d7-8fc8-62bb6092c8bd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="90f57277-bfb5-4278-bcd7-b5f2520a03fc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
