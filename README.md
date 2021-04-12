@@ -5,4 +5,4 @@
 
 2. 在https://unity3d.com/get-unity/download/archive 中選擇 Unity 2018.x，並下載 Unity 2018.4.33版本。
 
-![image 1](https://github.com/beep-boop-coder/VR-Project/blob/main/README-images/image-1.jpg?raw=true)
+![image 1](https://github.com/beep-boop-coder/VR-Project/blob/main/README-images/image-1.png?raw=true)
