@@ -717,6 +717,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -737,10 +738,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: e4f37ef7-3d32-459e-b757-5cc7cf15d73c
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: VR Project v0.1 (prototype)
+  organizationId: p0tat0r
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

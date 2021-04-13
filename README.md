@@ -7,7 +7,7 @@
 
 2. 打開 Unity Hub，在Installs > Add 中選擇 Unity 2018 年的 LTS (Long term support) 版本（暫時應為2018.4.33），並選擇加入 Android Build Support，最後按 Install，如下圖所示。
 
-![image 1](https://github.com/beep-boop-coder/VR-Project/blob/main/README-images/image-1.png?raw=true)
+![image 8](https://github.com/beep-boop-coder/VR-Project/blob/main/README-images/image-8.png?raw=true)
 
 3. 在https://github.com/beep-boop-coder/VR-Project 中按 Code > Download ZIP，以把本程式下載下來。
 

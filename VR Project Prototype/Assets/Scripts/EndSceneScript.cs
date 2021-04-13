@@ -9,12 +9,12 @@ public class EndSceneScript : MonoBehaviour
     {
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         {
-            SceneManageScript.ChangeToNextScene();
+            SceneManageScript.ChangeToNextScene(2);
         }
 
         if (Input.GetKey(KeyCode.T))
         {
-            SceneManageScript.ChangeToNextScene();
+            SceneManageScript.ChangeToNextScene(2);
         }
 
 

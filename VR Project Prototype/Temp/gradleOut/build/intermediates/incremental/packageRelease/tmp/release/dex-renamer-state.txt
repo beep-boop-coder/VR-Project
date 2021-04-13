@@ -1,0 +1,4 @@
+#Tue Apr 13 23:34:40 HKT 2021
+base.0=/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

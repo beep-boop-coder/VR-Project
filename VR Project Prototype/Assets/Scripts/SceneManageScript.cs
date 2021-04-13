@@ -6,20 +6,21 @@ using UnityEngine.SceneManagement;
 public class SceneManageScript : MonoBehaviour
 {
 
-    public static void ChangeToNextScene()
+    public static void ChangeToNextScene(int currentSceneIndex)
     {
-        int maxSceneIndex = SceneManager.sceneCount - 1;
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int maxSceneIndex = SceneManager.sceneCountInBuildSettings - 1;
 
         if (currentSceneIndex < maxSceneIndex)
         {
-            SceneManager.LoadSceneAsync(currentSceneIndex + 1);
-            Debug.Log("Loaded Next Scene, current scene =" + currentSceneIndex);
+            SceneManager.LoadScene(currentSceneIndex + 1);
+            Debug.Log("Loaded Next Scene, current scene = " + currentSceneIndex
+                + "Max Scene = " + maxSceneIndex);
         }
         else
         {
-            SceneManager.LoadSceneAsync(0);
-            Debug.Log("Loaded First Scene, current scene =" + currentSceneIndex);
+            SceneManager.LoadScene(0);
+            Debug.Log("Loaded Next Scene, current scene = " + currentSceneIndex
+               + "Max Scene = " + maxSceneIndex);
         }
     }
 }
