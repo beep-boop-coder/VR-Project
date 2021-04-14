@@ -12,13 +12,13 @@ public class SceneManageScript : MonoBehaviour
 
         if (currentSceneIndex < maxSceneIndex)
         {
-            SceneManager.LoadScene(currentSceneIndex + 1);
+            SceneManager.LoadSceneAsync(currentSceneIndex + 1);
             Debug.Log("Loaded Next Scene, current scene = " + currentSceneIndex
                 + "Max Scene = " + maxSceneIndex);
         }
         else
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadSceneAsync(0);
             Debug.Log("Loaded Next Scene, current scene = " + currentSceneIndex
                + "Max Scene = " + maxSceneIndex);
         }

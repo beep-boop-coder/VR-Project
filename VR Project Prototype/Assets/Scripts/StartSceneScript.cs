@@ -8,16 +8,10 @@ public class StartSceneScript : MonoBehaviour
 
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger)| Input.GetKey(KeyCode.T))
         {
             SceneManageScript.ChangeToNextScene(0);
         }
-
-        if (Input.GetKey(KeyCode.T))
-        {
-            SceneManageScript.ChangeToNextScene(0);
-        }
-
 
     }
 }

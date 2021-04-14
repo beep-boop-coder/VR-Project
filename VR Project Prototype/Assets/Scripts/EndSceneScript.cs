@@ -7,16 +7,10 @@ public class EndSceneScript : MonoBehaviour
 {
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) | Input.GetKey(KeyCode.T))
         {
             SceneManageScript.ChangeToNextScene(2);
         }
-
-        if (Input.GetKey(KeyCode.T))
-        {
-            SceneManageScript.ChangeToNextScene(2);
-        }
-
 
     }
 }
