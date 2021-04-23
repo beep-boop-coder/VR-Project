@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR.Scripts.Editor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR.Editor", "Oculus.VR.Editor.csproj", "{46EEF2EB-B4B5-2FF4-3D4A-DCB7C40EE424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{AD7B497B-884D-BCF4-8BCB-0568E755A610}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +31,6 @@ Global
 		{46EEF2EB-B4B5-2FF4-3D4A-DCB7C40EE424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46EEF2EB-B4B5-2FF4-3D4A-DCB7C40EE424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46EEF2EB-B4B5-2FF4-3D4A-DCB7C40EE424}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD7B497B-884D-BCF4-8BCB-0568E755A610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD7B497B-884D-BCF4-8BCB-0568E755A610}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD7B497B-884D-BCF4-8BCB-0568E755A610}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD7B497B-884D-BCF4-8BCB-0568E755A610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
