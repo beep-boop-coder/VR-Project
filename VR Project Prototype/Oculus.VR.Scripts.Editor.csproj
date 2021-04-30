@@ -64,13 +64,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Oculus\VR\Scripts\Editor\OVRCustomSkeletonEditor.cs" />
-    <Compile Include="Assets\Oculus\VR\Scripts\Editor\OVREditorUtil.cs" />
-    <Compile Include="Assets\Oculus\VR\Scripts\Editor\OVRManagerEditor.cs" />
-    <Compile Include="Assets\Oculus\VR\Scripts\Editor\OVROverlayEditor.cs" />
-    <Compile Include="Assets\Oculus\VR\Scripts\Editor\OVRProjectConfigEditor.cs" />
-    <None Include="Assets\Oculus\VR\Scripts\Editor\OVROverlaySrcRectEditor.shader" />
-    <None Include="Assets\Oculus\VR\Scripts\Editor\OVROverlayDestRectEditor.shader" />
+    <Compile Include="Assets\Extensions\Oculus\VR\Scripts\Editor\OVRCustomSkeletonEditor.cs" />
+    <Compile Include="Assets\Extensions\Oculus\VR\Scripts\Editor\OVREditorUtil.cs" />
+    <Compile Include="Assets\Extensions\Oculus\VR\Scripts\Editor\OVRManagerEditor.cs" />
+    <Compile Include="Assets\Extensions\Oculus\VR\Scripts\Editor\OVROverlayEditor.cs" />
+    <Compile Include="Assets\Extensions\Oculus\VR\Scripts\Editor\OVRProjectConfigEditor.cs" />
+    <None Include="Assets\Extensions\Oculus\VR\Scripts\Editor\OVROverlaySrcRectEditor.shader" />
+    <None Include="Assets\Extensions\Oculus\VR\Scripts\Editor\OVROverlayDestRectEditor.shader" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.34f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -309,16 +309,16 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.34f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

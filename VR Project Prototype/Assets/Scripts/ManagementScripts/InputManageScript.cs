@@ -31,7 +31,7 @@ public class InputManageScript : MonoBehaviour
     public static bool CheckIfTriggerPressed()
     {
         bool TriggerPressed = false;
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) | Input.GetKey(KeyCode.T))
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) | Input.GetKeyDown(KeyCode.T))
         {
             TriggerPressed = true;
         }
@@ -40,5 +40,21 @@ public class InputManageScript : MonoBehaviour
             TriggerPressed = false;
         }
         return TriggerPressed;
+    }
+
+    public static bool CheckIfTouchpadPressed()
+    {
+        bool TouchpadPressed = false;
+
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryTouchpad) | Input.GetKeyDown(KeyCode.P))
+        {
+            TouchpadPressed = true;
+        }
+        else
+        {
+            TouchpadPressed = false;
+        }
+
+        return TouchpadPressed;
     }
 }

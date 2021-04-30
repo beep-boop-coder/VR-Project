@@ -64,59 +64,47 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ChoiceSceneScripts\GravityGunScript.cs" />
-    <Compile Include="Assets\Scripts\ChoiceSceneScripts\TrashScript.cs" />
-    <Compile Include="Assets\Scripts\EndSceneScripts\EndSceneScript.cs" />
+    <Compile Include="Assets\Extensions\Planet Earth Free\SpinFree.cs" />
+    <Compile Include="Assets\Extensions\SimpleGridShader\DistanceScaling.cs" />
     <Compile Include="Assets\Scripts\ManagementScripts\ComputerInput.cs" />
+    <Compile Include="Assets\Scripts\ManagementScripts\DialogManageScript.cs" />
     <Compile Include="Assets\Scripts\ManagementScripts\InputManageScript.cs" />
-    <Compile Include="Assets\Scripts\ManagementScripts\SceneManageScript.cs" />
-    <Compile Include="Assets\Scripts\StartSceneScripts\StartSceneScript.cs" />
-    <Compile Include="Assets\Scripts\TestSpaceScripts\TestPointer.cs" />
-    <Compile Include="Assets\Scripts\TestSpaceScripts\TestPopup.cs" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Extensions\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
-    <None Include="Assets\Extensions\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Simple city plain\Read_me.txt" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Extensions\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Extensions\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Standard Diffuse Bump.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Extensions\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Extensions\SkySerie Freebie\Hdri setup.txt" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <Compile Include="Assets\Scripts\SceneScripts\ChoiceSceneScripts\AlumScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\ChoiceSceneScripts\ChoiceSceneScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\ChoiceSceneScripts\PlasticScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\EndSceneScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\FinalCutsceneScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\InteractiveSceneAScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\InteractiveSceneB1Script.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\InteractiveSceneBScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\RecycleSceneAScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\RecycleSceneBScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\StartSceneScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\TrashSceneAScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScripts\TrashSceneBScript.cs" />
+    <None Include="Assets\Extensions\Simple city plain\Read_me.txt" />
+    <None Include="Assets\Extensions\SimpleGridShader\README.txt" />
+    <None Include="Assets\Extensions\SimpleGridShader\GridShader.shader" />
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.34f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -317,7 +305,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.34f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/linbenwen/Desktop/VR for Good Project/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/linbenwen/Desktop/VR for Good/VR-Project/VR Project Prototype/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.34f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

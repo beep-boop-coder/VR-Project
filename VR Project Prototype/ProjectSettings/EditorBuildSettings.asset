@@ -5,22 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 53eb1292bcfa847ee91c9f42f52a2b12
-  - enabled: 0
-    path: Assets/Scenes/TestSpace.unity
-    guid: d776a9d8722c94decb4d3516f65fffee
-  - enabled: 0
-    path: Assets/Scenes/EndScene.unity
-    guid: 60d922ff88df64129b6fb2e1990760d9
   - enabled: 1
     path: Assets/Scenes/ChoiceScene.unity
     guid: 6267a482224bc4b29ae6acd0a45c6537
   - enabled: 1
-    path: Assets/Scenes/RecyclingChoiceScene.unity
+    path: Assets/Scenes/RecycleSceneA.unity
     guid: f34be3d0dcded435db7cd1a543f6199c
   - enabled: 1
-    path: Assets/Scenes/TrashChoiceScene.unity
+    path: Assets/Scenes/RecycleSceneB.unity
+    guid: 901e5465078dc4f6a9c5b4cb6288cc2c
+  - enabled: 1
+    path: Assets/Scenes/TrashSceneA.unity
     guid: 0c5405ba3b96344e4bd928bae0aeb345
+  - enabled: 1
+    path: Assets/Scenes/TrashSceneB.unity
+    guid: e075f55e35932404d8cad4c0109a3d82
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneA.unity
+    guid: cbd688c19f7b24b1ca848012129449c1
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneB.unity
+    guid: d31378023387c4956a21752bce20af2c
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneB1.unity
+    guid: 74e599f68e89d4f2385fddc31f1198ef
+  - enabled: 1
+    path: Assets/Scenes/FinalCutScene.unity
+    guid: df593a320500c864b944dbe6d9028b42
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 60d922ff88df64129b6fb2e1990760d9
   m_configObjects: {}

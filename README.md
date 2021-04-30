@@ -5,7 +5,7 @@
 
 1. 在https://unity3d.com/get-unity/download 下載 Unity Hub，登入或註冊你的Unity 帳號，並啟用免費的個人版使用許可。
 
-2. 打開 Unity Hub，在Installs > Add 中選擇 Unity 2018 年的 LTS (Long term support) 版本（暫時應為2018.4.33），並選擇加入 Android Build Support，最後按 Install，如下圖所示。
+2. 打開 Unity Hub，在Installs > Add 中選擇 Unity 2018 年的 LTS (Long term support) 版本（暫時應為2018.4.34），並選擇加入 Android Build Support，最後按 Install，如下圖所示。
 
 ![image 8](https://github.com/beep-boop-coder/VR-Project/blob/main/README-images/image-8.png?raw=true)
 
@@ -31,6 +31,6 @@
 
 ![image 6](https://github.com/beep-boop-coder/VR-Project/blob/main/README-images/image-6.png?raw=true)
 
-9. 最後，在 Unity 上方的選單列中打開 File > Build Settings > Platform > Android，並按下方的 Switch Platform。等待轉換完成後，便可把 Oculus Go 裝置與電腦連結，再按 Build and Run，便可把軟件下載在 Oculus Go。
+9. 最後，在 Unity 上方的選單列中打開 File > Build Settings > Platform > Android，並按下方的 Switch Platform。等待轉換完成後，便可把 Oculus Go 裝置與電腦連結，再按 Build and Run，便可把軟件下載在 Oculus Go。（記得要在 oculus app 上開啟開發者模式）
 
 ![image 7](https://github.com/beep-boop-coder/VR-Project/blob/main/README-images/image-7.png?raw=true)

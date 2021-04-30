@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ComputerInput : MonoBehaviour
 {
-    public float speed = 3;
+    [SerializeField] float speed = 3;
 
     void Update()
     {
@@ -15,6 +15,5 @@ public class ComputerInput : MonoBehaviour
             transform.RotateAround(transform.position, -Vector3.up, speed * Input.GetAxis("Mouse X"));
             transform.RotateAround(transform.position, transform.right, speed * Input.GetAxis("Mouse Y"));
         }
-
     }
 }

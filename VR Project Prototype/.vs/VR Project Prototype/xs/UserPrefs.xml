@@ -1,23 +1,20 @@
 ﻿<Properties StartupConfiguration="{08B417E2-DF8D-8EDE-E7EC-2A90915BDFAA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChoiceSceneScripts/GravityGunScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneScripts/InteractiveSceneB1Script.cs">
     <Files>
-      <File FileName="Assets/Scripts/ChoiceSceneScripts/GravityGunScript.cs" Line="32" Column="47" />
-      <File FileName="Assets/Scripts/ManagementScripts/InputManageScript.cs" Line="11" Column="3" />
-      <File FileName="Assets/Scripts/TestSpaceScripts/TestPointer.cs" Line="15" Column="55" />
-      <File FileName="Assets/Scripts/ChoiceSceneScripts/TrashScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ManagementScripts/SceneManageScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneScripts/ChoiceSceneScripts/ChoiceSceneScript.cs" Line="59" Column="75" />
+      <File FileName="Assets/Scripts/SceneScripts/InteractiveSceneAScript.cs" Line="60" Column="23" />
+      <File FileName="Assets/Scripts/SceneScripts/InteractiveSceneB1Script.cs" Line="89" Column="14" />
+      <File FileName="Assets/Scripts/SceneScripts/InteractiveSceneBScript.cs" Line="59" Column="22" />
+      <File FileName="Assets/Scripts/SceneScripts/TrashSceneAScript.cs" />
+      <File FileName="Assets/Scripts/SceneScripts/RecycleSceneAScript.cs" Line="15" Column="41" />
+      <File FileName="Assets/Scripts/SceneScripts/TrashSceneBScript.cs" />
+      <File FileName="Assets/Scripts/SceneScripts/RecycleSceneBScript.cs" Line="13" Column="60" />
+      <File FileName="Assets/Scripts/SceneScripts/ChoiceSceneScripts/AlumScript.cs" Line="17" Column="41" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b59ffa43-6804-4cd2-8618-dc0f55c457d5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9eb0d583-03cf-4f4b-85c1-75e865692b50" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
