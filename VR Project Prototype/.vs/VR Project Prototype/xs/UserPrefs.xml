@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{08B417E2-DF8D-8EDE-E7EC-2A90915BDFAA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneScripts/InteractiveSceneB1Script.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ManagementScripts/DialogManageScript.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneScripts/ChoiceSceneScripts/ChoiceSceneScript.cs" Line="59" Column="75" />
       <File FileName="Assets/Scripts/SceneScripts/InteractiveSceneAScript.cs" Line="60" Column="23" />
-      <File FileName="Assets/Scripts/SceneScripts/InteractiveSceneB1Script.cs" Line="89" Column="14" />
+      <File FileName="Assets/Scripts/SceneScripts/InteractiveSceneB1Script.cs" Line="115" Column="1" />
       <File FileName="Assets/Scripts/SceneScripts/InteractiveSceneBScript.cs" Line="59" Column="22" />
-      <File FileName="Assets/Scripts/SceneScripts/TrashSceneAScript.cs" />
+      <File FileName="Assets/Scripts/SceneScripts/TrashSceneAScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SceneScripts/RecycleSceneAScript.cs" Line="15" Column="41" />
-      <File FileName="Assets/Scripts/SceneScripts/TrashSceneBScript.cs" />
+      <File FileName="Assets/Scripts/SceneScripts/TrashSceneBScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SceneScripts/RecycleSceneBScript.cs" Line="13" Column="60" />
       <File FileName="Assets/Scripts/SceneScripts/ChoiceSceneScripts/AlumScript.cs" Line="17" Column="41" />
+      <File FileName="Assets/Scripts/SceneScripts/EndSceneScript.cs" Line="22" Column="58" />
+      <File FileName="Assets/Scripts/ManagementScripts/DialogManageScript.cs" Line="22" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9eb0d583-03cf-4f4b-85c1-75e865692b50" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6d013ed7-a325-4286-ae4c-5b14bb9a6bdd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
